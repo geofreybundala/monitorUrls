@@ -1,0 +1,19 @@
+{
+  "name": "monitorscript",
+  "version": "1.0.0",
+  "description": " Website monitoring script",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/geofreybundala/monitorUrls.git"
+  },
+  "author": "GeofreyBundala",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/geofreybundala/monitorUrls/issues"
+  },
+  "homepage": "https://github.com/geofreybundala/monitorUrls#readme"
+}
