@@ -11,4 +11,4 @@ const mongoose =require('mongoose')
      },
  })
 
- module.exports = mongoose.model('Subscriber',reportSchema)
+ module.exports = mongoose.model('Reports',reportSchema)
