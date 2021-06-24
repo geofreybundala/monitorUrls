@@ -6,9 +6,14 @@ const mongoose =require('mongoose')
         required:true
      },
      failureCounter:{
-        type:Double,
+        type:Number,
         required:true
      },
+     timestamp:{
+      type:Date,
+      required:true,
+      default: Date.now
+      }
  })
 
  module.exports = mongoose.model('Reports',reportSchema)

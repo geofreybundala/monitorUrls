@@ -2,7 +2,7 @@ const express = require('express');
 const path = require('path')
 const app = express();
 require('dotenv').config();
-// const {job} = require('./Controllers/urlTest');
+const {job} = require('./Controllers/urlTest');
 
 const mongoose = require('mongoose');
 console.log(process.env.DATABASE_URL)
