@@ -1,7 +1,8 @@
 const express = require('express');
 const path = require('path')
 const app = express();
-require('dotenv').config()
+require('dotenv').config();
+const {job} = require('./Controllers/urlTest');
 
 const hostname = process.env.HOST;
 const port = process.env.PORT;
@@ -14,5 +15,6 @@ app.get('/',(req, res) => {
 
 
 app.listen(port,hostname,()=>{
+    job;
  console.log(`Server running at http://${hostname}:${port}`)
 })
