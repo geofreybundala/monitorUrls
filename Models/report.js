@@ -5,9 +5,9 @@ const mongoose =require('mongoose')
         type:String,
         required:true
      },
-     failureCounter:{
-        type:Number,
-        required:true
+     tracker:{
+      type:Number,
+      required:true
      },
      timestamp:{
       type:Date,
