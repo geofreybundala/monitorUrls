@@ -38,5 +38,4 @@ const updateTracker = (url)=>{
         });
 }
 
-console.log(updateTracker);
 exports.updateTracker = updateTracker;

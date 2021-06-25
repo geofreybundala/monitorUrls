@@ -19,6 +19,5 @@ const resetTracker = (url)=>{
     });
 }
 
-console.log(resetTracker);
 
 exports.resetTracker = resetTracker;
