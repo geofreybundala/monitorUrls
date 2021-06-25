@@ -1,2 +1,2 @@
-** Simple URLS Tracker **
+**Simple URLS Tracker**
 
