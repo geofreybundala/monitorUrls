@@ -7,8 +7,7 @@ const https = require('https');
  * @param {*} callback 
  */
  const checkWebsite =(url, callback)=> {
-  https
-    .get(url, function(res) {
+  https.get(url, function(res) {
       return callback(res.statusCode === 200);
     })
     .on("error", function(e) {

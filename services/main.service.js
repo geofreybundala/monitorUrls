@@ -7,8 +7,7 @@ const {updateTracker} = require('../utils/updateTracker')
  * Handle all urls
  */
 const checkEvent= ()=>{
-
-    mySites.forEach(function (url, index) {
+    mySites.forEach(function (url) {
         checkWebsite(url,async (isValid)=>{
             isValid ? resetTracker(url) : updateTracker(url);
         })
