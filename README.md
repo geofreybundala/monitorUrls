@@ -9,3 +9,6 @@ simply, this is site downtime checker
   <li>run npm test , for testing purpose</li>
 </ol>
 
+**How to use**
+if you want to change testing urls you can navigate to data/mySites.js you can use your own Urls
+
